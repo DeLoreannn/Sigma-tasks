@@ -1,0 +1,16 @@
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.exe
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.deps.json
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.runtimeconfig.json
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.runtimeconfig.dev.json
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.dll
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\ref\Task18.dll
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\bin\Debug\net5.0\Task18.pdb
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.csproj.AssemblyReference.cache
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.AssemblyInfoInputs.cache
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.AssemblyInfo.cs
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.csproj.CoreCompileInputs.cache
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.dll
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\ref\Task18.dll
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.pdb
+C:\Users\vvlad\Desktop\Sigma\Task18\Task18\obj\Debug\net5.0\Task18.genruntimeconfig.cache

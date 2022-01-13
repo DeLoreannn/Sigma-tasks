@@ -1,0 +1,44 @@
+static private int Separation<T>(T[] array, int start, int end) where T : IComparable<T>
+        {
+            if (array.Length > 0 && (array[0] is AttributeSort))
+            {
+                var pivot = start - 1;
+                for (var i = start; i < end; i++)
+                {
+                    if ((array[i].CompareTo(array[end]) < 0) && ((array[i] as AttributeSort).SortOrder == SortOrder.Ascending)
+                        && ((array[i] as AttributeSort).Condition == true) && ((array[end] as AttributeSort).Condition == true))
+                    {
+                        pivot++;
+                        Swap(ref array[pivot], ref array[i]);
+                    }
+                    else if ((array[i].CompareTo(array[end]) > 0) && ((array[i] as AttributeSort).SortOrder == SortOrder.Descending)
+                        && ((array[i] as AttributeSort).Condition == true) && ((array[end] as AttributeSort).Condition == true))
+                    {
+                        pivot++;
+                        Swap(ref array[pivot], ref array[i]);
+                    }
+                }
+
+                pivot++;
+                Swap(ref array[pivot], ref array[end]);
+                return pivot;
+            }
+            else if (array.Length > 0)
+            {
+                var pivot = start - 1;
+                for (var i = start; i < end; i++)
+                {
+                    if (array[i].CompareTo(array[end]) < 0)
+                    {
+                        pivot++;
+                        Swap(ref array[pivot], ref array[i]);
+                    }
+                }
+
+                pivot++;
+                Swap(ref array[pivot], ref array[end]);
+                return pivot;
+            }
+            else
+                return -1;
+        }
